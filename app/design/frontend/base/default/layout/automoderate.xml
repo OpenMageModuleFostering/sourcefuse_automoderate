@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <review_product_list>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/automoderate/messages.css</name>
+            </action>
+        </reference>	  
+    </review_product_list>
+        
+    <catalog_product_view translate="label">
+        <reference name="product_tag_list">         
+            <action method="setTemplate" ifconfig="automoderate_section/automoderate_tag/automoderatetag">
+                <template>automoderate/tag.phtml</template>
+            </action>      
+        </reference>
+    </catalog_product_view>
+</layout>

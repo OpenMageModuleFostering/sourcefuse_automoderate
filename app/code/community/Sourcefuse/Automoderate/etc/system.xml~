@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <review translate="label" module="review">
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <automoderateproductreviews translate="label">
+                            <label>Automoderate of Product Reviews</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </automoderateproductreviews>
+
+                        <automoderateproductreviewmessage translate="label">
+                            <label>Succesfull Message in Product Reviews</label>
+                            <comment><![CDATA[When Autoapprove Reviews set to yes, then 'Your review has been accepted.'<br />
+                                     When Autoapprove Reviews set to no, then 'Your review has been accepted for moderation.']]> </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </automoderateproductreviewmessage>
+                       
+                        <automoderate_reviews_filter>
+                            <label>Words to filter in review.</label>
+                            <comment>
+                               <![CDATA[Review will not be submitted if it contains these words.</br>
+                               <b>Note: </b> You can use a comma (,) to separate blocking words.]]>
+                            </comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </automoderate_reviews_filter>
+                    </fields>
+                </review>
+            </groups>
+        </catalog>
+    </sections>
+</config>

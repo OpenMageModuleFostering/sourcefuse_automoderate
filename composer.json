@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Sourcefuse_Automoderate",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Automatically approves Product reviews and tags based on Customer Group/Type and filter of predefined set of words.",
+    "authors": [
+    {
+        "name": "Sourcefuse Technologies",
+        "email": "ecomsupport@sourcefuse.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

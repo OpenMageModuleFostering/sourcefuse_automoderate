@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sourcefuse_Automoderate</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Automatically approves Product reviews and tags based on Customer Group/Type and filter of predefined set of words.</summary>
+    <description>Using this extension we can automatically approve Product reviews and tags based on customer group/type.&#xD;
+&#xD;
+In default Magento Product reviews and tags need approval from the back-end admin to display on front-end. Sometimes we want Product reviews and tags automatically approved and also for only certain group of customers or all groups i.e, General, Wholesaler or Retailer.&#xD;
+&#xD;
+You can also set reviews and tags to be automatically approved only if the customer belongs to a specific customer group.&#xD;
+&#xD;
+An extra layer of validation is also added with "filter words" section. With this feature we can validate the content and prevent it from submitting if any of the word is found in the content going to be submitted by user.</description>
+    <notes>Using this extension we can automatically approve Product reviews and tags based on Customer Group/Type and filter of predefined set of words.</notes>
+    <authors><author><name>Sourcefuse Technologies</name><user>sourcefuse</user><email>ecomsupport@sourcefuse.com</email></author></authors>
+    <date>2016-01-11</date>
+    <time>14:06:14</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Sourcefuse_Automoderate.xml" hash="a2140255c4a98d65b9a52ac39fa7739e"/></dir></target><target name="magecommunity"><dir name="Sourcefuse"><dir name="Automoderate"><dir name="Block"><dir name="Review"><file name="Form.php" hash="7150b3e832c493bd369b164ff859d9bb"/></dir></dir><dir name="Helper"><file name="Data.php" hash="ec4824829bc1e7e9cb245a644f8078d2"/></dir><dir name="Model"><file name="Automoderate.php" hash="e2f616b26a5b42c369ba056cc2e0edca"/><file name="Observer.php" hash="1cdc44f136bc2f35c0729cdf5a014654"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Customergroup.php" hash="94f6c08eee334defb9b91f6e8afae94d"/></dir></dir></dir></dir><dir name="controllers"><file name="AutomoderateController.php" hash="bf807b85482dd01db186bcc72bedd51b"/><dir name="Tag"><file name="IndexController.php" hash="dc7c0e4483491c72a73187afae6dfbce"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="6d008163485e9d19916073dbfab50c1e"/><file name="config.xml" hash="b1cf61e7afac4a7f8c2a48ef523d65f5"/><file name="system.xml" hash="2e9889c318dea6caf1d469559175de76"/><file name="system.xml~" hash="c1cc34d19268d7b6bf1a6ad6317861a7"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="automoderate"><file name="form.phtml" hash="793f3cd4a34956a557d6466a9a55d581"/><file name="tag.phtml" hash="d0fe14530820d212d4c0500837a9ab8f"/></dir></dir><dir name="layout"><file name="automoderate.xml" hash="55cec4af5ae448f93ac2bb4e2317872b"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
