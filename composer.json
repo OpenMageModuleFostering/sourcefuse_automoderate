@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Sourcefuse_Automoderate",
+    "name": "openmage-module-fostering\/sourcefuse_automoderate",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Automatically approves Product reviews and tags based on Customer Group\/Type and filter of predefined set of words.",
     "authors": [
